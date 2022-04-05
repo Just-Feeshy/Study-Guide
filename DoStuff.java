@@ -7,7 +7,6 @@ class DoStuff {
         int result = ar[num];
 
         if(num == 0) {
-            System.out.println(result);
             return result;
         }
 
