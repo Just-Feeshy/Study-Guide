@@ -15,7 +15,14 @@ class Main {
         
         //System.out.println(n.addingUpTo(new int[] {1, 4, 5, 6}, 2));
 
-        //System.out.println(n.reverseString("funni"));
-        System.out.println(y.getTotalFromArray(new int[] {76, 64, 1, 7, 54, 7, 9, 10, 1, 0, 7, 8}));
+        System.out.println(n.notFun(7));
+        System.out.println(n.remember(5));
+        n.build(51);
+        n.wow("pacman", 2);
+
+        
+        System.out.println("\nrows:");
+        n.test1(7);
+        //System.out.println(y.getTotalFromArray(new int[] {76, 64, 1, 7, 54, 7, 9, 10, 1, 0, 7, 8}));
     }
 }
