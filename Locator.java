@@ -6,14 +6,12 @@ import java.io.File;
 class Locator {
 
     /*
-    * Assume that param fileLocation alwasy has the name of directory
+    * Assume that param fileLocation always has the name of directory
     */
     public static String getFile(String fileLocation, String file) {
         String folderIn = fileLocation;
         File[] folder = new File(folderIn).listFiles();
         int index = 0;
-
-        //System.out.println(folderIn);
         
         while(index < folder.length) {
             if(folder[index].isFile()) {
